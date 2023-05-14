@@ -13,8 +13,12 @@ const ContactPage = () => {
     e.preventDefault();
     // Perform form validation and submit logic
     if (name && email && message) {
-      // Display success toast notification
-      toast.success('Message sent successfully!', { autoClose: 3000 });
+      // Construct the email URL with the subject and body
+      const emailUrl = `mailto:info@epoultry.co.ke ?subject=Contact Form Submission&body=${encodeURIComponent(
+        `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`
+      )}`;
+      // Open the user's default email client
+      window.location.href = emailUrl;
       // Reset form fields
       setName('');
       setEmail('');
@@ -24,6 +28,7 @@ const ContactPage = () => {
       toast.error('Please fill in all fields.', { autoClose: 3000 });
     }
   };
+  
 
   return (
     <div className="contact-page">

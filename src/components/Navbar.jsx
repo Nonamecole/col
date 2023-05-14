@@ -1,42 +1,48 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import logo from '../assets/logo.png';
-import './css/Navbar.css'
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import './css/Navbar.css';
 
 const CustomNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="md" bg="white" variant="light" fixed="top">
-      <Navbar.Brand as={Link} to="/" className="navbar-brand">
-        <img src={logo} alt="" className="logo" />
+      <Navbar.Brand as={Link} to="/">
+        <img src={logo} alt="" style={{ width: 150, height: 150 }} />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-toggler" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto custom-nav">
-          <Nav.Link as={Link} to="/" exact className="nav-link">
+          <Nav.Link as={Link} to="/" exact>
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/about" className="nav-link">
+          <Nav.Link as={Link} to="/about">
             About
           </Nav.Link>
-          <Nav.Link as={Link} to="/product" className="nav-link">
+          <Nav.Link as={Link} to="/product">
             Products
           </Nav.Link>
-          <Nav.Link as={Link} to="/service" className="nav-link">
+          <Nav.Link as={Link} to="/service">
             Services
           </Nav.Link>
-          <NavDropdown title="Media" id="media-dropdown" className="nav-link">
-            <NavDropdown.Item as={Link} to="/team" className="nav-link">
+          <Nav.Link as={Link} to="/modules">
+            Modules
+          </Nav.Link>
+          <Nav.Link as={Link} to="/careers">
+            Careers
+          </Nav.Link>
+          <NavDropdown title="Media" id="media-dropdown">
+            <NavDropdown.Item as={Link} to="/team">
               Our Team
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/poultry" className="nav-link">
+            <NavDropdown.Item as={Link} to="/poultry">
               Poultry
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/training" className="nav-link">
+            <NavDropdown.Item as={Link} to="/training">
               Training Team
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link as={Link} to="/contact" className="nav-link">
+          <Nav.Link as={Link} to="/contact">
             Contact
           </Nav.Link>
         </Nav>
