@@ -70,9 +70,8 @@ const Footer = () => {
         <div className="row mt-4">
           <div className="col-12">
             <ul className="social-icons d-flex justify-content-center">
-              <li><a href="https://www.linkedin.com/in/epoultry"><AiOutlineLinkedin /></a></li>
-              <li><a href="https://www.twitter.com/epoultry"><AiOutlineTwitter /></a></li>
-              <li><a href="https://www.facebook.com/epoultry"><AiOutlineFacebook /></a></li>
+              <li><a href="https://www.linkedin.com/company/epoultry/"><AiOutlineLinkedin /></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100088593704349&mibextid=ZbWKwL"><AiOutlineFacebook /></a></li>
             </ul>
           </div>
         </div>
