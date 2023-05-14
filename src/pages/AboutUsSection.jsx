@@ -20,8 +20,10 @@ const AboutUsSection = () => {
                 <h2 className="about-us-title fw-bold">Who We Are</h2>
                 <h1 className="about-us-subtitle">e-Poultry</h1>
                 <p>
-                  e-poultry is an agri-fintec company that has developed a digital mobile based platform that offers robust solutions to the challenges facing value chain players and actors in poultry farming.
-                  Developed in 2020 and launched in 2022, the application brings on board revolutionary changes aimed at commercializing poultry farming.
+                We are an Agri fintech company on a mission to revolutionize poultry farming by leveraging on technology to offer robust solutions to the challenges facing value chain players and actors in poultry farming. 
+                Through the mobile based application, farmers are able to optimize their operations, increase profitability and track overall production of their flock.
+
+
                 </p>
                 <a href="/product" className="ceo-button btn btn-primary">
                 OUR PRODUCTS

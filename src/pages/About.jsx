@@ -15,14 +15,15 @@ const About = () => {
             <CardComponent
               icon={<GiLaurelCrown className="about-us-icon" />}
               title="Vision"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis maximus tortor vitae eleifend."
+              text="To be a globally recognized poultry management app that digitalizes processes in the poultry value chain."
             />
           </Col>
           <Col md={6}>
             <CardComponent
               icon={<GiTargetArrows className="about-us-icon" />}
               title="Mission"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis maximus tortor vitae eleifend."
+              text="To provide an all-round solution that makes poultry management simpler and more efficient for poultry farmers
+              "
             />
           </Col>
           <Col md={6}>

@@ -33,9 +33,9 @@ const Team = () => {
           </Col>
         </Row>
         <p className="team-paragraph" data-aos="fade-up" data-aos-delay="400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis maximus tortor vitae eleifend. Ut sed elit
-          sit amet ex luctus ultricies a vitae nunc. Quisque ut bibendum nunc, at pulvinar enim. Sed viverra turpis id
-          convallis finibus.
+       At e-Poultry, we have assembled a talented and passionate team dedicated to revolutionizing the poultry farming industry. With expertise spanning agriculture, finance, technology, and business development, our team is committed to providing robust solutions to the challenges faced by value chain players and actors in poultry farming.<br />
+       Together, our team at e-Poultry is driven by a shared passion for transforming poultry farming through technology. We are committed to empowering value chain players and actors in the industry by providing them with innovative and practical solutions that drive commercialization, efficiency, and profitability in poultry farming.
+       
         </p>
       </Container>
     </div>

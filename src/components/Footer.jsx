@@ -59,7 +59,7 @@ const Footer = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
-                <button type="submit" className="btn btn-primary">Subscribe</button>
+                <button type="submit" className="btn btn-danger">Subscribe</button>
               </div>
             </form>
           </div>

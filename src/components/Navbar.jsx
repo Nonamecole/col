@@ -32,6 +32,9 @@ const CustomNavbar = () => {
             Careers
           </Nav.Link>
           <NavDropdown title="Media" id="media-dropdown">
+            <NavDropdown.Item as={Link} to="/directors">
+               Board Of Directors
+            </NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/team">
               Our Team
             </NavDropdown.Item>
