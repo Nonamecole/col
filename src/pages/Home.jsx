@@ -9,6 +9,7 @@ const Home = () => {
       <Container>
       
         <PartnerSection />
+        
       </Container>
     </div>
   );
