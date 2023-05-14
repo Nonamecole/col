@@ -1,0 +1,23 @@
+.service-section {
+    padding: 40px 0;
+    padding-top: 80px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card:hover {
+    background-color: #ff0000;
+  }
+  
+  .service-card-title {
+    font-weight: bold;
+    color: black;
+  }
+  
