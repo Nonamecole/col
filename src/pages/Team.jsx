@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './css/Team.css';
 import team1 from '../assets/team1.jpg';
 import team2 from '../assets/team2.jpg';
+import team3 from '../assets/team3.jpg';
+import team4 from '../assets/team4.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -28,6 +30,18 @@ const Team = () => {
           <Col md={6} data-aos="zoom-out" data-aos-delay="300">
             <div className="team-member">
               <img src={team2} alt="Team Member 2" className="team-image" />
+              <div className="overlay"></div>
+            </div>
+          </Col>
+          <Col md={6} data-aos="zoom-out" data-aos-delay="300">
+            <div className="team-member">
+              <img src={team3} alt="Team Member 2" className="team-image" />
+              <div className="overlay"></div>
+            </div>
+          </Col>
+          <Col md={6} data-aos="zoom-out" data-aos-delay="300">
+            <div className="team-member">
+              <img src={team4} alt="Team Member 2" className="team-image" />
               <div className="overlay"></div>
             </div>
           </Col>
