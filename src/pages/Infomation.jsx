@@ -6,7 +6,7 @@ const Information = () => {
   return (
     <div className="container">
       <div className="row">
-        <h>Information</h>
+        <h1>Information</h1>
         <div className="col-md-6">
           
           <ReactPlayer
