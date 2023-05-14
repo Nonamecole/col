@@ -28,7 +28,7 @@ function Information() {
       <div>
         <button style={buttonStyle}>
           <a href={video1} target="_blank" rel="noopener noreferrer" style={linkStyle}>E-Poultry app</a>
-        </button>
+        </button> <br></br>
         <button style={buttonStyle}>
           <a href={video2} target="_blank" rel="noopener noreferrer" style={linkStyle}>ESmart Brooder app</a>
         </button>
