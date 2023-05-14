@@ -1,43 +1,40 @@
 import React from 'react';
-import '../pages/css/Infomation.css'
-import video1 from '../assets/video1.mp4';
-import video2 from '../assets/video2.mp4';
 
-const Information = () => {
+function Information() {
+  const video1 = "https://youtu.be/eKqbV7ub4sk";
+   
+  const video2 = "https://youtu.be/dy2H0UAqx-I";
+
+  const buttonStyle = {
+    backgroundColor: '#ff2d55',
+    color: '#fff',
+    padding: '10px 20px',
+    border: 'none',
+    borderRadius: '5px',
+    fontSize: '18px',
+    cursor: 'pointer',
+    marginRight: '10px'
+  };
+
+  const linkStyle = {
+    color: '#fff',
+    textDecoration: 'none'
+  };
+
   return (
-    <div className="information-section">
-      <div className="information-item">
-        <div className="video-wrapper">
-          <video controls>
-            <source src={video1} type="video/mp4" />
-          </video>
-          <div className="play-icon"></div>
-        </div>
-        <div className="description">
-          <h3 className="title">Video 1 Title</h3>
-          <p className="content">
-            Description for Video 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </div>
-      <div className="information-item">
-        <div className="video-wrapper">
-          <video controls>
-            <source src={video2} type="video/mp4" />
-          </video>
-          <div className="play-icon"></div>
-        </div>
-        <div className="description">
-          <h3 className="title">Video 2 Title</h3>
-          <p className="content">
-            Description for Video 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
+    <div>
+      <h1>Information Page</h1>
+      <p>Click on the buttons below to watch some informative videos:</p>
+      <div>
+        <button style={buttonStyle}>
+          <a href={video1} target="_blank" rel="noopener noreferrer" style={linkStyle}>E-Poultry app</a>
+        </button>
+        <button style={buttonStyle}>
+          <a href={video2} target="_blank" rel="noopener noreferrer" style={linkStyle}>ESmart Brooder app</a>
+        </button>
       </div>
     </div>
   );
-};
+}
 
 export default Information;
