@@ -29,8 +29,8 @@ const About = () => {
           <Col md={6}>
             <CardComponent
               icon={<GiCrystalGrowth className="about-us-icon" />}
-              title="Values"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis maximus tortor vitae eleifend."
+              title="Core-Values"
+              text="Innovation, Customer Satisfaction,Efficiency,Intergrity."
             />
           </Col>
         </Row>
