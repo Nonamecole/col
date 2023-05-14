@@ -43,7 +43,6 @@ const ContactPage = () => {
         <Row>
           <Col md={6}>
             <h2>Chat With Us</h2>
-            <h4>Call us:</h4>
             <p>If you have any questions or inquiries, please feel free to reach out to us.</p>
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
