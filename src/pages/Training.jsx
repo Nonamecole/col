@@ -34,9 +34,10 @@ const Training = () => {
           </Col>
         </Row>
         <p className="training-paragraph" data-aos="fade-up" data-aos-delay="400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis maximus tortor vitae eleifend. Ut sed elit
-          sit amet ex luctus ultricies a vitae nunc. Quisque ut bibendum nunc, at pulvinar enim. Sed viverra turpis id
-          convallis finibus.
+          e-poultry has on boarded 500  farmers. <br />
+	        e- poultry currently has 20 extension  officers, training and onboarding  farmers. <br />
+          e-poultry is targeting to onboard  5,000 farmers by end of 2023 and  10,000 farmers by 2024.
+
         </p>
       </Container>
     </div>

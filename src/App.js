@@ -17,7 +17,8 @@ import Careers from './pages/Careers';
 import Poultry from './pages/Poultry';
 import Training from './pages/Training';
 import Team from './pages/Team';
-
+import Modules from './pages/Modules';
+import CareersPage from './pages/Careers';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -41,6 +42,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/product" element={<Product />} />
             <Route path="/service" element={<Service />} />
+            <Route path="/modules" element={<Modules />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/poultry" element={<Poultry />} />

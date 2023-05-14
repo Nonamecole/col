@@ -25,6 +25,12 @@ const CustomNavbar = () => {
           <Nav.Link as={Link} to="/service">
             Services
           </Nav.Link>
+          <Nav.Link as={Link} to="/modules">
+            Modules
+          </Nav.Link>
+          <Nav.Link as={Link} to="/careers">
+            Careers
+          </Nav.Link>
           <NavDropdown title="Media" id="media-dropdown">
             <NavDropdown.Item as={Link} to="/team">
               Our Team
