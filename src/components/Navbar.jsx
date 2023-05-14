@@ -8,7 +8,7 @@ const CustomNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="md" bg="white" variant="light" fixed="top">
       <Navbar.Brand as={Link} to="/">
-        <img src={logo} alt="" height="50" />
+        <img src={logo} alt="" style={{ width: 150, height: 150 }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
